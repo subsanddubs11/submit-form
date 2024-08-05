@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./reset.css">
+  <title>Submit form</title>
+</head>
+<body>
+  <div id="page-content">
+    <div id="background">
+      <img src="./assets/images/cool-background.jpg" id="background-img" alt="Background" width="100%" height="100%">
+      <div id="overlay">
+        <img src="./assets/images/odin-lined.png" id="overlay-img" alt="Overlay" width="12%">
+        <h2>Odin Page</h2>
+      </div>
+    </div>
+    <div id="main-form">
+      <div id="header-text">
+        <div class="text-wrapper">
+          <h3>If you wanna get a hold of precious HTML and CSS documents that will transform your code, submit this form and we will send it to your email.</h3>
+          <h3>You <em>know</em> you want to.</h3>
+        </div>
+      </div>
+      <div id="form-container">
+        <form action="#" method="get">
+          <div id="top-section">
+            <h3>Let's do this!</h3>
+            <div id="input-list">
+              <div class="input">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" placeholder="First name..." required>
+              </div>
+              <div class="input">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Last name..."required>
+              </div>
+              <div class="input">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="mail@example.com" required>
+              </div>
+              <div class="input">
+                <label for="phone_number">Phone Number</label>
+                <input type="tel" id="phone_number" name="phone_number" placeholder="e.g. (555)-555-555" required>
+              </div>
+              <div class="input">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter password..." required>
+              </div>
+              <div class="input">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Repeat password..." required>
+              </div>
+            </div>
+          </div>
+          <div id="form-end">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
